@@ -18,7 +18,6 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
     <style>
-        /* Custom styling for the new contact buttons */
         .contact-buttons-container {
             margin-top: 30px;
             display: flex;
@@ -27,18 +26,18 @@
             gap: 15px;
         }
         .btn-contact {
-            min-width: 200px;
+            min-width: 220px;
             margin: 10px;
             padding: 12px 20px;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0;" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0;" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0;">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -89,7 +88,7 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>I’m a versatile tech enthusiast with a passion for exploring and creating. My interests span programming, cybersecurity, embedded systems, and data analysis. I thrive on solving complex problems and building innovative business tools that make an impact. My ultimate goal is to establish my own company for industrial solutions.</p>
+                        <p>I’m a versatile tech enthusiast with a passion for exploring and creating. My interests span programming, cybersecurity, embedded systems, and data analysis. I thrive on solving complex problems and building innovative business tools. My goal is to establish my own company for industrial solutions.</p>
                         <a href="https://www.linkedin.com/in/mr-sha3ban" class="btn btn-fill" target="_blank">LinkedIn Profile</a>
                     </div>
                 </div>
@@ -104,46 +103,16 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Microsoft Excel</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <h4>Python</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div>
-                            </div>
-                        </div>
+                        <div class="skill"><h4>Microsoft Excel</h4><div class="progress"><div class="progress-bar" data-transitiongoal="100"></div></div></div>
+                        <div class="skill"><h4>Python</h4><div class="progress"><div class="progress-bar" data-transitiongoal="95"></div></div></div>
                     </div>
                     <div class="col-md-4">
-                        <div class="skill">
-                            <h4>VBA</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <h4>SQL</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div>
-                            </div>
-                        </div>
+                        <div class="skill"><h4>VBA</h4><div class="progress"><div class="progress-bar" data-transitiongoal="82"></div></div></div>
+                        <div class="skill"><h4>SQL</h4><div class="progress"><div class="progress-bar" data-transitiongoal="66"></div></div></div>
                     </div>
                     <div class="col-md-4">
-                        <div class="skill">
-                            <h4>HTML/CSS</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="59"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <h4>Data Analysis</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div>
-                            </div>
-                        </div>
+                        <div class="skill"><h4>HTML/CSS</h4><div class="progress"><div class="progress-bar" data-transitiongoal="59"></div></div></div>
+                        <div class="skill"><h4>Data Analysis</h4><div class="progress"><div class="progress-bar" data-transitiongoal="95"></div></div></div>
                     </div>
                 </div>
             </div>
@@ -152,67 +121,46 @@
         <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3>What I Do</h3>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Business Analysis">
-                            <h4>Business Analysis</h4>
-                            <p>Expertise in MS Excel techniques, VBA automation, and advanced Data Analysis frameworks such as Anaconda and MySQL.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/back-end.svg" alt="HR Business partner">
-                            <h4>HR Business Partner</h4>
-                            <p>With over 8 years in multinational companies, I provide deep knowledge on HR roles and implementing efficient HR systems.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Consultancy">
-                            <h4>Consultancy</h4>
-                            <p>Beyond technical development, I help organizations build strategic roadmaps through professional consultancy services.</p>
-                        </div>
-                    </div>
+                    <div class="col-md-12"><h3>What I Do</h3><img src="assets/img/lines.svg" class="img-lines" alt="lines"></div>
+                    <div class="col-sm-4"><div class="service"><img src="assets/img/front-end.svg" alt=""><h4>Business Analysis</h4><p>Experience in MS Excel, VBA, and advanced Data Analysis frameworks such as Anaconda or MySQL.</p></div></div>
+                    <div class="col-sm-4"><div class="service"><img src="assets/img/back-end.svg" alt=""><h4>HR Business Partner</h4><p>Over 8 years of HR experience in multinational companies, applying systems to any working field.</p></div></div>
+                    <div class="col-sm-4"><div class="service"><img src="assets/img/consultancy.svg" alt=""><h4>Consultancy</h4><p>Helping you decide strategic roadmaps via specialized technical and business consultancy services.</p></div></div>
                 </div>
             </div>
         </section>
 
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
-                <div class="text-center">
-                    <h3>My Achievements</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
+                <div class="text-center"><h3>My Recent Achievements</h3><img src="assets/img/lines.svg" class="img-lines" alt="lines"></div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>AWS Certification</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                            </div>
+                            <div class="portfolio-item-info"><h4>From AWS</h4><a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a></div>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>IBM Data Science</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                            </div>
+                            <div class="portfolio-item-info"><h4>From IBM</h4><a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a></div>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>DataCamp Python</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                            </div>
+                            <div class="portfolio-item-info"><h4>From DataCamp</h4><a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info"><h4>From Cisco</h4><a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info"><h4>From Udacity</h4><a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -222,18 +170,9 @@
         <section class="site-section section-counters text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="8" data-speed="2000">8</p>
-                        <h4>Years Experience</h4>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="12" data-speed="2000">12</p>       
-                        <h4>Projects</h4>      
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
-                        <h4>Seconds on site</h4>
-                    </div>
+                    <div class="col-sm-4"><p class="counter start" data-to="8" data-speed="2000">8</p><h4>Years Experience</h4></div>
+                    <div class="col-sm-4"><p class="counter start" data-to="12" data-speed="2000">12</p><h4>Projects</h4></div>
+                    <div class="col-sm-4"><p id="infinity" class="counter" data-to="1" data-speed="1000">0</p><h4>Seconds on site</h4></div>
                 </div>
             </div>
         </section>
@@ -242,24 +181,13 @@
             <div class="container">
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <p>Feel free to reach out for collaborations or inquiries.</p>
-                
                 <div class="contact-buttons-container">
-                    <a href="mailto:mr.sha3ban@hotmail.com" class="btn btn-fill btn-contact">
-                        <span class="glyphicon glyphicon-envelope"></span> Send Email
-                    </a>
-                    
-                    <a href="https://api.whatsapp.com/send?phone=201066800808&text=Hi%20Mohammad" target="_blank" class="btn btn-border btn-contact">
-                        <span class="glyphicon glyphicon-comment"></span> WhatsApp
-                    </a>
-                    
-                    <a href="https://www.linkedin.com/in/mr-sha3ban/" target="_blank" class="btn btn-fill btn-contact">
-                        <span class="glyphicon glyphicon-user"></span> LinkedIn
-                    </a>
+                    <a href="mailto:mr.sha3ban@hotmail.com" class="btn btn-fill btn-contact"><span class="glyphicon glyphicon-envelope"></span> Email Me</a>
+                    <a href="https://api.whatsapp.com/send?phone=201066800808&text=Hi%20Mohammad" target="_blank" class="btn btn-border btn-contact"><span class="glyphicon glyphicon-comment"></span> WhatsApp</a>
+                    <a href="https://www.linkedin.com/in/mr-sha3ban/" target="_blank" class="btn btn-fill btn-contact"><span class="glyphicon glyphicon-user"></span> LinkedIn</a>
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer id="colophon" class="site-footer">
@@ -270,31 +198,45 @@
                     <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
                     <a class="icon linkedin-bg" href="https://www.linkedin.com/in/mr-sha3ban/"><i class="icon-linkedin"></i></a>
                 </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                    <p class="copyright">© 2024 Mohammad Shaaban. All Rights Reserved</p>
-                </div>
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
-                    </div>
-                </div>
+                <div class="col-sm-4 col-xs-6 text-center"><p class="copyright">© 2024 Mohammad Shaaban</p></div>
+                <div class="col-sm-4 col-xs-3 text-right page-scroll"><a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a></div>
             </div>
         </div>
     </footer>
 
     <div id="portfolioItem1" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/AWS ML.jpg" alt="AWS">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">AWS Machine Learning Foundation</h4>
-            <p>Training in Machine Learning techniques, Python package development, and Object-Oriented Programming (OOP).</p>
-          </div>
-        </div>
-      </div>
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><a class="close" data-dismiss="modal">&times;</a><img class="img-res" src="assets/img/AWS ML.jpg" alt=""></div>
+            <div class="modal-body"><h4 class="modal-title">AWS Machine Learning Foundation</h4><p>Learning Machine Learning techniques, Python package development, and OOP programming.</p></div>
+        </div></div>
+    </div>
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><a class="close" data-dismiss="modal">&times;</a><img class="img-res" src="assets/img/Data_Science___Analytics.jpg" alt=""></div>
+            <div class="modal-body"><h4 class="modal-title">Data Science & Analytics</h4><p>Understanding topics such as Data Science, Analytics, data gathering, and trend prediction.</p></div>
+        </div></div>
+    </div>
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><a class="close" data-dismiss="modal">&times;</a><img class="img-res" src="assets/img/Datacamp.jpg" alt=""></div>
+            <div class="modal-body"><h4 class="modal-title">Intermediate Python</h4><p>Completed over 8 specialized tracks in Python programming on DataCamp.</p></div>
+        </div></div>
+    </div>
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><a class="close" data-dismiss="modal">&times;</a><img class="img-res" src="assets/img/linux cert.jpg" alt=""></div>
+            <div class="modal-body"><h4 class="modal-title">NDG Linux Essentials - Cisco</h4><p>Coverage of basic Linux system administration skills needed for professional certification.</p></div>
+        </div></div>
+    </div>
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><a class="close" data-dismiss="modal">&times;</a><img class="img-res" src="assets/img/udacity.svg" alt=""></div>
+            <div class="modal-body"><h4 class="modal-title">Advanced Data Analysis</h4><p>Proficiency in advanced data analysis tools, visualization concepts, and A/B testing.</p></div>
+        </div></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
